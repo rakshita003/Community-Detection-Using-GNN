@@ -166,7 +166,7 @@ Future explorations could involve refining GNN architectures, expanding classifi
 
 ## Collaboration
 
-This project was developed in collaboration with Rakshita Mathur and Meet Mehta. It served as our final year honors project at the University of Ottawa Fall 2023
+This project was developed in collaboration. It served as our final year honors project at the University of Ottawa Fall 2023.
 
 #### Contributors
 
@@ -175,4 +175,4 @@ This project was developed in collaboration with Rakshita Mathur and Meet Mehta.
 
 #### Acknowledgments
 
-We would like to express our gratitude to Amiya Nayak, our project supervisor, for their guidance and support throughout the development of this project.
+We would like to express our gratitude to [Amiya Nayak](https://www.site.uottawa.ca/~anayak/), our project supervisor, for their guidance and support throughout the development of this project.
