@@ -37,9 +37,9 @@ This repository delves into community detection within the GitHub developer netw
     - [Logistic Regression Results](#logistic-regression-results)
 
 5. [Comparison of the Three Models](#comparison-of-the-three-models)
-
 6. [Conclusion](#conclusion)
-    - [Future Directions and Considerations](#future-directions-and-considerations)
+7. [Future Directions and Considerations](#future-directions-and-considerations)
+8. [Collaboration](#Collaboration)
 
 ## Introduction
 
@@ -51,8 +51,8 @@ In the ever-evolving landscape of software development, understanding the divers
 
 To initiate the project, the first step is exploring and loading the dataset. The data, collected from GitHub's public API, includes information about developers' locations, starred repositories, employers, and email addresses.
 
-![Reading the dataset from the URL](<img width="413" alt="image" src="https://github.com/rakshita003/CSI4900/assets/43514952/56d4e81c-439a-4ce8-98b8-24e033982055">
-)
+<img width="413" alt="image" src="https://github.com/rakshita003/CSI4900/assets/43514952/56d4e81c-439a-4ce8-98b8-24e033982055">
+
 
 ### Preprocessing
 
@@ -72,8 +72,8 @@ Data encoding plays a pivotal role in preparing the dataset for machine learning
 
 The GitHub developer network is represented as a graph, crucial for modeling relationships and conducting graph-based tasks.
 
-![Connections between labeled nodes in the graph](<img width="675" alt="image" src="https://github.com/rakshita003/CSI4900/assets/43514952/78a3ca88-63ae-4fc7-a37f-028a5b48cade">
-)
+<img width="675" alt="image" src="https://github.com/rakshita003/CSI4900/assets/43514952/78a3ca88-63ae-4fc7-a37f-028a5b48cade">
+
 
 ## Model Development
 
@@ -131,30 +131,28 @@ The Logistic Regression classifier is trained on each fold of the cross-validati
 
 The GNN model achieves an impressive average accuracy of 87.82%. Learning rate adjustments contribute to its ability to capture evolving social dynamics within the GitHub community.
 
-![GNN Loss with epoch-100](<img width="415" alt="image" src="https://github.com/rakshita003/CSI4900/assets/43514952/050915d4-14c9-41f5-9ef8-ad7ae6326c06">
-)
+<img width="415" alt="image" src="https://github.com/rakshita003/CSI4900/assets/43514952/050915d4-14c9-41f5-9ef8-ad7ae6326c06">
+
 
 ### Naive Bayes Results
 
 The Naive Bayes model, while simple and efficient, struggles with the dataset's complexity and imbalance, resulting in an accuracy of 44.45%.
 
-![Naive Bayes Confusion Matrix](<img width="386" alt="image" src="https://github.com/rakshita003/CSI4900/assets/43514952/64460cd8-d604-4c15-bbf6-9b4b218cfdbc">
-)
-
+<img width="386" alt="image" src="https://github.com/rakshita003/CSI4900/assets/43514952/64460cd8-d604-4c15-bbf6-9b4b218cfdbc">
 
 ### Logistic Regression Results
 
 Logistic Regression achieves a notable accuracy of 83.42%, effectively handling imbalanced class distributions.
 
-![Logistic Regression Confusion Matrix](<img width="389" alt="image" src="https://github.com/rakshita003/CSI4900/assets/43514952/f95ddfc5-2e14-4a87-8e8e-81dbd0115d0d">
-)
+<img width="389" alt="image" src="https://github.com/rakshita003/CSI4900/assets/43514952/f95ddfc5-2e14-4a87-8e8e-81dbd0115d0d">
+
 
 ## Comparison of the Three Models
 
 The GNN outperforms Naive Bayes and Logistic Regression, showcasing its ability to capture complex relationships in graph-structured data.
 
-![Model accuracies comparison chart](<img width="408" alt="image" src="https://github.com/rakshita003/CSI4900/assets/43514952/f229399e-130a-465e-9bd5-de697eb7ddc2">
-)
+<img width="408" alt="image" src="https://github.com/rakshita003/CSI4900/assets/43514952/f229399e-130a-465e-9bd5-de697eb7ddc2">
+
 
 ## Conclusion
 
@@ -165,3 +163,16 @@ You can find the [Final Code](https://colab.research.google.com/drive/1-UUDyyiHn
 ## Future Directions and Considerations
 
 Future explorations could involve refining GNN architectures, expanding classification scope, exploring alternative models, and incorporating diverse datasets for a broader understanding of community detection in different contexts.
+
+## Collaboration
+
+This project was developed in collaboration with Rakshita Mathur and Meet Mehta. It served as our final year honors project at the University of Ottawa Fall 2023
+
+#### Contributors
+
+- [Rakshita Mathur](https://github.com/rakshita003)
+- [Meet Mehta](https://github.com/mehtameet12)
+
+#### Acknowledgments
+
+We would like to express our gratitude to Amiya Nayak, our project supervisor, for their guidance and support throughout the development of this project.
